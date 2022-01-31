@@ -1,7 +1,5 @@
 ## MamaJ Restaurant Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## About the Project
 
 This website for a restaurant called Mamaj Kitchen
