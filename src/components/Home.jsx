@@ -53,7 +53,7 @@ export default function Home() {
             </p>
             <div>
               <a
-                href="mailto:emekankwo49@gmail.com&subject=Table Reservation from Website"
+                href="mailto:emekankwo49@gmail.com?subject=Table Reservation from Website"
                 className="home-button"
               >
                 Book a Table
@@ -171,7 +171,7 @@ export default function Home() {
               <p>Phone: +234 812 568 989</p>
             </div>
             <a
-              href="mailto:emekankwo49@gmail.com&subject=Table Reservation from Website"
+              href="mailto:emekankwo49@gmail.com?subject=Table Reservation from Website"
               className="view-link"
             >
               Book a Table
@@ -190,7 +190,7 @@ export default function Home() {
             <div className="footer-line"></div>
             <p>For all enquiries regarding feedbacks and general questions.</p>
 
-            <a href="mailto:emekankwo49@gmail.com&subject=Mail from the Website">
+            <a href="mailto:emekankwo49@gmail.com?subject=Mail from the Website">
               Send Email
             </a>
           </div>
