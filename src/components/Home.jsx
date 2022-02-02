@@ -26,12 +26,7 @@ export default function Home() {
                   </li>
                   <li>
                     <a href="/">
-                      <img
-                        src={Logo}
-                        alt="Mamaj-logo"
-                        width="180px"
-                        height="90px"
-                      />
+                      <img className="nav-image" src={Logo} alt="Mamaj-logo" />
                     </a>
                   </li>
 

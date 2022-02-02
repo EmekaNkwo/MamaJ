@@ -272,7 +272,7 @@
 }
 .view-link {
   text-decoration: none;
-  padding: 0.8rem 1rem;
+  padding: 1.2rem 1rem;
   color: #fff;
   background-color: rgb(255, 159, 32);
   border-radius: 10px;
@@ -396,5 +396,131 @@
 
   .footer-form p {
     font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1070px) {
+  .nav-bar {
+    padding: 1.5rem;
+  }
+
+  .home {
+    top: 27%;
+  }
+
+  .home h1 {
+    font-size: 2.8rem;
+  }
+
+  .about-right p {
+    width: 100%;
+    text-align: center;
+    line-height: 2.5;
+  }
+
+  .footer-container {
+    padding: 4rem;
+  }
+  .footer-form {
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .nav-bar {
+    padding: 1.5rem;
+  }
+
+  .nav-list li a img {
+    width: 150px;
+    height: 70px;
+  }
+
+  .home {
+    top: 18%;
+    padding: 2rem;
+  }
+
+  .home h1 {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+
+  .home p {
+    margin: 1rem auto 3rem;
+    font-size: 1rem;
+    max-width: 400px;
+    line-height: 1.5;
+  }
+
+  .about-container {
+    padding: 2rem;
+  }
+
+  .about-right h1 {
+    font-size: 2.2rem;
+  }
+
+  .about-right,
+  .about-left {
+    margin: 1rem auto;
+  }
+
+  .about-img {
+    max-width: 350px;
+    max-height: 350px;
+  }
+
+  .about-right p {
+    margin-bottom: 1rem;
+    line-height: 1.8;
+    text-align: center;
+    width: 100%;
+  }
+
+  .menu-title {
+    font-size: 2.2rem;
+  }
+
+  .menu-subtitle {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .food-title {
+    font-size: 2.3rem;
+  }
+
+  .menu-item img {
+    max-height: 250px;
+    width: 250px;
+    object-fit: cover;
+  }
+
+  .view-contianer {
+    padding: 1rem;
+  }
+
+  .view-left h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+
+  .view-left h2 {
+    font-size: 1.7rem;
+    width: 100%;
+  }
+
+  .view-left p {
+    font-size: 1.1rem;
+  }
+
+  .view-right img {
+    max-height: 450px;
+    max-width: 450px;
+  }
+
+  .footer-container {
+    padding: 3rem;
   }
 }
